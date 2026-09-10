@@ -29,8 +29,7 @@ router = APIRouter(
     tags=["MarkovChains"],
 
 )
-#v = open("/Users/sohanprabhu/Desktop/Markov Chains K/VocabFree1D.json","r")
-#v2 = open("/Users/sohanprabhu/Desktop/Markov Chains K/VocabFree2d.json","r")
+
 
 @router.post("/ChainedComplete")
 async def Response(prompt: TextMarkovFormat):

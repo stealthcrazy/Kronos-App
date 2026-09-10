@@ -55,7 +55,7 @@ device = torch.device("cpu")
 model = Transformer( ModelDimension, Heads, ForwardExpansion, Layers, VOCABLEN, MAXLEN,device=device,DRP=0.0)
 
 
-checkpoint = torch.load("./Lemons" , map_location=torch.device("cpu"),weights_only=False)
+checkpoint = torch.load("./Weight_.pt" , map_location=torch.device("cpu"),weights_only=False)
 """
 checkpoint = torch.load("./FinetunedModels/LEMON1.5.pth" , map_location=torch.device("cpu"),weights_only=False)
 
