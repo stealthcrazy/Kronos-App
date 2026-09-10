@@ -1,0 +1,39 @@
+#Header{
+    background-color: #212529;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border-bottom: #04080F 2px solid;
+    display: grid;
+    grid-template-columns: 20vw 70vw 10vw;
+    grid-template-rows: 10vh;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: white;
+
+
+}
+#TitleBox{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.logo{
+    height: 100px;
+    padding-left: 20px;
+
+}
+#exit{
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+.exit{
+    height: 50px;
+
+}

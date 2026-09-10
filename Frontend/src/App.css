@@ -1,0 +1,6 @@
+#MainGridWrapper{
+  display: grid;
+  grid-template-columns: 15vw 85vw;
+  grid-template-rows:10vh 90vh ;
+
+}

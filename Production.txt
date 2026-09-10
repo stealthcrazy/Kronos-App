@@ -1,0 +1,11 @@
+to get into production use commands
+
+
+cd KRONOS-VITE-REACT 
+npm run dev -- --host
+
+fastapi run main.py
+
+change backend urls to 192 type adresses.
+
+also can be paired with a webserver, eg  appache which may not require backend urls in 192 type adress 

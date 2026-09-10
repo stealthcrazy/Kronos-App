@@ -1,0 +1,147 @@
+#ContentBoxWrapper{
+    background-color: #f8f9fa;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+    display: grid;
+    grid-template-columns: 85vw;
+    grid-template-rows: 80vh 10vh;
+    
+}
+#ResponseComponents{
+    grid-row: 1/2;
+    grid-column: 1/2;
+   
+    width:85vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.ResponseBox{
+    padding: 20px;
+    display: flex;
+
+    flex-wrap: wrap;
+    
+
+    
+    
+    margin: 5px;
+    background-color: #212529;
+
+    border-radius: 10px;
+    color: aliceblue;
+    width:75%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#TextField{
+    grid-row: 2/3;
+    display: flex;
+
+    
+    
+    align-items: center;
+    justify-content: center;
+}
+#TextBox{
+    height: 68%;
+    width: 68%;
+    white-space: pre-wrap;
+    user-select: none;
+
+
+    border: none;
+    border-radius: 25px;
+    background-color: #212529;
+    align-content: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    
+    z-index: 1;
+    
+    
+    
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+#Prediction{
+    width: fit-content;
+    height: inherit;
+    color: grey;
+
+}
+
+
+
+    
+.sendImg{
+    height: 50px;
+    width: 50px;
+
+}
+    
+    
+    
+
+#send{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    border: none;
+    background-color:initial;
+    
+
+}
+#Editsend{
+    height: 50px;
+    width: fit-content;
+    border:#212529 solid 2px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #46505a;
+    border-radius: 8px;
+    color: #f8f9fa;
+    
+    
+
+    
+
+}
+.edit-prompt-image-container{
+    display: none;
+}
+.ResponseBox:hover > .edit-prompt-image-container {
+    display: block;
+
+   
+}
+.ResponseBox > span{
+    width: 92.8%;
+
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.edit { 
+    height: 50px ;
+
+
+}
+
+
+.submitEdits{
+    display: none;
+    margin-top: 2px;
+
+
+}

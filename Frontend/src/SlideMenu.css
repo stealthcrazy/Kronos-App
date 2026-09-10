@@ -1,0 +1,134 @@
+#SlideMenuWrapper{
+    background-color: #dddddd;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-right: #04080F 2px solid;
+    display: flex;
+    flex-direction: column;
+
+
+    
+   
+    overflow-y: scroll;
+    
+
+
+    
+}
+#createChat{
+    padding-top: 25px;
+    padding-bottom: 27px;
+   
+
+    color: #212529;
+    
+    
+    background-color: inherit;
+    text-align:center;
+    align-items: center;
+    font-size: 20px;
+
+    border-bottom: 2px #212529 solid;
+    font-family: sans-serif;
+    font-size: 20px;
+
+    text-decoration: none;
+}
+#createChat a{
+
+    color: #212529;
+    text-decoration: none;
+}
+
+.chats_menu_box{
+    padding:20px;
+    color: #212529;
+    border-top: 0px #04080F;
+    border-bottom: 2px #04080F;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: inherit;
+    text-align: left;
+    font-size: 20px;
+    border-style: solid;
+    font-family: sans-serif;
+    
+    
+    display: flex;
+
+    
+    align-items: center;
+    z-index: 1;
+    
+}
+.chats_menu_box a{
+    text-decoration: none;
+    color: #212529;
+    display: flex;
+
+    align-items: center;
+    
+
+
+}
+
+.MenuOptions{
+    display: none;
+    background-color: #212529;
+    height: fit-content;
+}
+
+
+
+.delete{
+    text-decoration: none;
+    
+    background-color: #212529;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    
+    
+    position: absolute;
+    left: 15vw ;
+    padding:20px;
+    font-size: 20px;
+    color: rgb(151, 11, 11);
+    
+    
+
+
+   
+
+
+
+
+}
+.ButtonMenu{
+    display: flex;
+    
+    
+    margin: 0px;
+    position: absolute;
+    left:10em;
+    width: 35px;
+    padding:15px;
+    margin-left:30px ;
+    
+
+
+}
+.Circle{
+
+    border-radius: 4px;
+    margin: 2px;
+    width: 4px;
+    border-color:#212529 ;
+    border-style: solid;
+    background-color: #212529;
+
+}
+
+
+
